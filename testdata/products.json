@@ -1,0 +1,11 @@
+{
+  "searchCases": [
+    { "term": "Blue Top", "expectedProduct": "Blue Top" },
+    { "term": "Men Tshirt", "expectedProduct": "Men Tshirt" }
+  ],
+  "cartProduct": {
+    "name": "Blue Top",
+    "price": "Rs. 500",
+    "quantity": "1"
+  }
+}

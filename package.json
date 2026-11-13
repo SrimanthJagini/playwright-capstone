@@ -1,13 +1,26 @@
 {
   "name": "playwright-capstone",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {},
+  "description": "Playwright TypeScript automation framework for Automation Exercise",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:accessibility": "playwright test tests/accessibility.spec.ts --project=chromium",
+    "test:visual": "playwright test tests/visual.spec.ts --project=chromium",
+    "test:visual:update": "playwright test tests/visual.spec.ts --project=chromium --update-snapshots",
+    "report": "playwright show-report reports/html",
+    "typecheck": "tsc --noEmit"
+  },
   "keywords": [],
   "type": "commonjs",
   "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
     "@playwright/test": "^1.65.0",
-    "@types/node": "^26.6.6"
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
   }
 }

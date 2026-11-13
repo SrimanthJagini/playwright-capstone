@@ -1,0 +1,8 @@
+{
+  "message": {
+    "name": "Playwright Capstone",
+    "email": "playwright.capstone@example.com",
+    "subject": "Automated contact form test",
+    "message": "This message was submitted by the Playwright capstone test suite."
+  }
+}
